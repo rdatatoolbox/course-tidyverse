@@ -1,0 +1,25 @@
+Package: course.tidyverse
+Type: Package
+Title: Introduction to Tidyverse
+Version: 0.0.3
+Authors@R: c(
+    person(given   = "Olivier",
+           family  = "Gimenez",
+           role    = c("aut", "cre"),
+           email   = "olivier.gimenez@cefe.cnrs.fr",
+           comment = c(ORCID = "0000-0001-7001-5142")))
+Description: Online presentation 'Introduction to Tidyverse'. This course is 
+    part of the workshop 'Data Toolbox for Reproducible Research in Ecology' 
+    co-organized by the FRB-CESAB (<https://www.fondationbiodiversite.fr/en/about-the-foundation/le-cesab/>)
+    and the GdR EcoStat (<https://sites.google.com/site/gdrecostat/>).
+URL: https://github.com/rdatatoolbox/course-tidyverse, https://rdatatoolbox/github.io/course-tidyverse
+BugReports: https://github.com/rdatatoolbox/course-tidyverse/issues
+License: CC BY 4.0
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+SystemRequirements: pandoc, Rtools (for Windows users)
+Imports:
+    fontawesome,
+    xaringan
